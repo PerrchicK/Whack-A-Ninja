@@ -15,6 +15,27 @@
 		680127E51F4A4788008D812E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680127E31F4A4788008D812E /* Main.storyboard */; };
 		680127E71F4A4788008D812E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680127E61F4A4788008D812E /* Assets.xcassets */; };
 		680127EA1F4A4788008D812E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680127E81F4A4788008D812E /* LaunchScreen.storyboard */; };
+		680128001F4A4899008D812E /* gameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 680127F21F4A4899008D812E /* gameOver.png */; };
+		680128011F4A4899008D812E /* gameOver@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 680127F31F4A4899008D812E /* gameOver@2x.png */; };
+		680128061F4A4899008D812E /* whack.caf in Resources */ = {isa = PBXBuildFile; fileRef = 680127F81F4A4899008D812E /* whack.caf */; };
+		680128091F4A4899008D812E /* whackBad.caf in Resources */ = {isa = PBXBuildFile; fileRef = 680127FB1F4A4899008D812E /* whackBad.caf */; };
+		6801280A1F4A4899008D812E /* whackHole.png in Resources */ = {isa = PBXBuildFile; fileRef = 680127FC1F4A4899008D812E /* whackHole.png */; };
+		6801280B1F4A4899008D812E /* whackHole@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 680127FD1F4A4899008D812E /* whackHole@2x.png */; };
+		6801280C1F4A4899008D812E /* whackMask.png in Resources */ = {isa = PBXBuildFile; fileRef = 680127FE1F4A4899008D812E /* whackMask.png */; };
+		6801280D1F4A4899008D812E /* whackMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 680127FF1F4A4899008D812E /* whackMask@2x.png */; };
+		680128121F4A4BA3008D812E /* ninja whack.png in Resources */ = {isa = PBXBuildFile; fileRef = 6801280F1F4A4BA3008D812E /* ninja whack.png */; };
+		680128171F4A4FC8008D812E /* ninja_gamescreen_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 680128161F4A4FC8008D812E /* ninja_gamescreen_bg.jpg */; };
+		6801281B1F4A51EC008D812E /* wood_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6801281A1F4A51EC008D812E /* wood_bg.png */; };
+		6801281D1F4AD240008D812E /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801281C1F4AD240008D812E /* Tile.swift */; };
+		680128251F4B070D008D812E /* ninja_good.png in Resources */ = {isa = PBXBuildFile; fileRef = 680128241F4B070D008D812E /* ninja_good.png */; };
+		680128291F4B3A06008D812E /* bad_ninjagif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 680128281F4B3A06008D812E /* bad_ninjagif.gif */; };
+		6801282B1F4B3F79008D812E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801282A1F4B3F79008D812E /* Helper.swift */; };
+		6801282D1F4B3FB8008D812E /* Array+Shuffling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801282C1F4B3FB8008D812E /* Array+Shuffling.swift */; };
+		6801282F1F4B4C52008D812E /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801282E1F4B4C52008D812E /* EndViewController.swift */; };
+		680128311F4B4C5C008D812E /* EndScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680128301F4B4C5C008D812E /* EndScene.swift */; };
+		680128351F4B61E6008D812E /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680128341F4B61E5008D812E /* StartScreenViewController.swift */; };
+		680128371F4B65F8008D812E /* EndGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680128361F4B65F8008D812E /* EndGameViewController.swift */; };
+		6801283B1F4B84B2008D812E /* teenage-mutant-ninja-turtles-green-102810-640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 6801283A1F4B84B2008D812E /* teenage-mutant-ninja-turtles-green-102810-640x1136.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +49,27 @@
 		680127E61F4A4788008D812E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		680127E91F4A4788008D812E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		680127EB1F4A4788008D812E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		680127F21F4A4899008D812E /* gameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameOver.png; sourceTree = "<group>"; };
+		680127F31F4A4899008D812E /* gameOver@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameOver@2x.png"; sourceTree = "<group>"; };
+		680127F81F4A4899008D812E /* whack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whack.caf; sourceTree = "<group>"; };
+		680127FB1F4A4899008D812E /* whackBad.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whackBad.caf; sourceTree = "<group>"; };
+		680127FC1F4A4899008D812E /* whackHole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whackHole.png; sourceTree = "<group>"; };
+		680127FD1F4A4899008D812E /* whackHole@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whackHole@2x.png"; sourceTree = "<group>"; };
+		680127FE1F4A4899008D812E /* whackMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whackMask.png; sourceTree = "<group>"; };
+		680127FF1F4A4899008D812E /* whackMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whackMask@2x.png"; sourceTree = "<group>"; };
+		6801280F1F4A4BA3008D812E /* ninja whack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ninja whack.png"; sourceTree = "<group>"; };
+		680128161F4A4FC8008D812E /* ninja_gamescreen_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ninja_gamescreen_bg.jpg; sourceTree = "<group>"; };
+		6801281A1F4A51EC008D812E /* wood_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood_bg.png; sourceTree = "<group>"; };
+		6801281C1F4AD240008D812E /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		680128241F4B070D008D812E /* ninja_good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninja_good.png; sourceTree = "<group>"; };
+		680128281F4B3A06008D812E /* bad_ninjagif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bad_ninjagif.gif; sourceTree = "<group>"; };
+		6801282A1F4B3F79008D812E /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = Content/Helper.swift; sourceTree = "<group>"; };
+		6801282C1F4B3FB8008D812E /* Array+Shuffling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Shuffling.swift"; sourceTree = "<group>"; };
+		6801282E1F4B4C52008D812E /* EndViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
+		680128301F4B4C5C008D812E /* EndScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndScene.swift; sourceTree = "<group>"; };
+		680128341F4B61E5008D812E /* StartScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
+		680128361F4B65F8008D812E /* EndGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndGameViewController.swift; sourceTree = "<group>"; };
+		6801283A1F4B84B2008D812E /* teenage-mutant-ninja-turtles-green-102810-640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teenage-mutant-ninja-turtles-green-102810-640x1136.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +102,46 @@
 		680127D81F4A4787008D812E /* Whack-A-Ninja */ = {
 			isa = PBXGroup;
 			children = (
+				680128301F4B4C5C008D812E /* EndScene.swift */,
+				6801282E1F4B4C52008D812E /* EndViewController.swift */,
+				6801282C1F4B3FB8008D812E /* Array+Shuffling.swift */,
+				6801282A1F4B3F79008D812E /* Helper.swift */,
 				680127D91F4A4787008D812E /* AppDelegate.swift */,
 				680127DB1F4A4788008D812E /* GameScene.sks */,
 				680127DD1F4A4788008D812E /* Actions.sks */,
 				680127DF1F4A4788008D812E /* GameScene.swift */,
 				680127E11F4A4788008D812E /* GameViewController.swift */,
+				6801281C1F4AD240008D812E /* Tile.swift */,
 				680127E31F4A4788008D812E /* Main.storyboard */,
 				680127E61F4A4788008D812E /* Assets.xcassets */,
 				680127E81F4A4788008D812E /* LaunchScreen.storyboard */,
 				680127EB1F4A4788008D812E /* Info.plist */,
+				680127F11F4A4899008D812E /* Content */,
+				680128341F4B61E5008D812E /* StartScreenViewController.swift */,
+				680128361F4B65F8008D812E /* EndGameViewController.swift */,
 			);
 			path = "Whack-A-Ninja";
+			sourceTree = "<group>";
+		};
+		680127F11F4A4899008D812E /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				6801283A1F4B84B2008D812E /* teenage-mutant-ninja-turtles-green-102810-640x1136.png */,
+				680128241F4B070D008D812E /* ninja_good.png */,
+				6801281A1F4A51EC008D812E /* wood_bg.png */,
+				6801280F1F4A4BA3008D812E /* ninja whack.png */,
+				680128161F4A4FC8008D812E /* ninja_gamescreen_bg.jpg */,
+				680127F21F4A4899008D812E /* gameOver.png */,
+				680127F31F4A4899008D812E /* gameOver@2x.png */,
+				680127F81F4A4899008D812E /* whack.caf */,
+				680127FB1F4A4899008D812E /* whackBad.caf */,
+				680127FC1F4A4899008D812E /* whackHole.png */,
+				680128281F4B3A06008D812E /* bad_ninjagif.gif */,
+				680127FD1F4A4899008D812E /* whackHole@2x.png */,
+				680127FE1F4A4899008D812E /* whackMask.png */,
+				680127FF1F4A4899008D812E /* whackMask@2x.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,11 +203,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680128251F4B070D008D812E /* ninja_good.png in Resources */,
+				6801280D1F4A4899008D812E /* whackMask@2x.png in Resources */,
 				680127E51F4A4788008D812E /* Main.storyboard in Resources */,
+				680128091F4A4899008D812E /* whackBad.caf in Resources */,
+				6801280A1F4A4899008D812E /* whackHole.png in Resources */,
+				6801283B1F4B84B2008D812E /* teenage-mutant-ninja-turtles-green-102810-640x1136.png in Resources */,
+				6801281B1F4A51EC008D812E /* wood_bg.png in Resources */,
+				680128121F4A4BA3008D812E /* ninja whack.png in Resources */,
+				680128291F4B3A06008D812E /* bad_ninjagif.gif in Resources */,
+				6801280C1F4A4899008D812E /* whackMask.png in Resources */,
 				680127DC1F4A4788008D812E /* GameScene.sks in Resources */,
 				680127E71F4A4788008D812E /* Assets.xcassets in Resources */,
 				680127EA1F4A4788008D812E /* LaunchScreen.storyboard in Resources */,
 				680127DE1F4A4788008D812E /* Actions.sks in Resources */,
+				6801280B1F4A4899008D812E /* whackHole@2x.png in Resources */,
+				680128011F4A4899008D812E /* gameOver@2x.png in Resources */,
+				680128001F4A4899008D812E /* gameOver.png in Resources */,
+				680128061F4A4899008D812E /* whack.caf in Resources */,
+				680128171F4A4FC8008D812E /* ninja_gamescreen_bg.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +234,14 @@
 			files = (
 				680127E01F4A4788008D812E /* GameScene.swift in Sources */,
 				680127E21F4A4788008D812E /* GameViewController.swift in Sources */,
+				680128371F4B65F8008D812E /* EndGameViewController.swift in Sources */,
+				6801282D1F4B3FB8008D812E /* Array+Shuffling.swift in Sources */,
+				6801282F1F4B4C52008D812E /* EndViewController.swift in Sources */,
+				6801282B1F4B3F79008D812E /* Helper.swift in Sources */,
 				680127DA1F4A4787008D812E /* AppDelegate.swift in Sources */,
+				680128311F4B4C5C008D812E /* EndScene.swift in Sources */,
+				6801281D1F4AD240008D812E /* Tile.swift in Sources */,
+				680128351F4B61E6008D812E /* StartScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
