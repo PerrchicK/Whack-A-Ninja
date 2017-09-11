@@ -1,4 +1,4 @@
-# iOS-memory-leaks-example
+# iOS memory leaks and other animals
 Originally taken from a game called "Whack-A-Ninja", an iPhone app written in Swift by one of my students.
 
 I took this project as a good example for issues and their solutions.
