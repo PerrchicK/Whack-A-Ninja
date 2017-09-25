@@ -20,8 +20,11 @@ class StartScreenViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
     @IBAction func startGame(_ sender: UIButton) {
-        performSegue(withIdentifier: "Start Game", sender: self)
+        // This line caused this warning log message: "Warning: Attempt to present <UINavigationController: 0x78945600> on <Whack_A_Ninja.StartScreenViewController: 0x78756700> whose view is not in the window hierarchy!"
+        // Because the 'present' action was performed from TWO places! (this is one of them and it's redundant)
+        //performSegue(withIdentifier: "Start Game", sender: self)
     }
     
 
