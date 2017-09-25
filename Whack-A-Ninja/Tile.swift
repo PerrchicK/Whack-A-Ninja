@@ -56,8 +56,8 @@ class Tile: SKNode {
         charNode.yScale = 1
         
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + hideTime * 3.5, execute: { [unowned self] in
-            self.hide()
+        DispatchQueue.main.asyncAfter(deadline: .now() + hideTime * 3.5, execute: { [weak self] in
+            self?.hide()
         })
     }
     
