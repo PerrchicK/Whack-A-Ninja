@@ -31,8 +31,6 @@
 		680128291F4B3A06008D812E /* bad_ninjagif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 680128281F4B3A06008D812E /* bad_ninjagif.gif */; };
 		6801282B1F4B3F79008D812E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801282A1F4B3F79008D812E /* Helper.swift */; };
 		6801282D1F4B3FB8008D812E /* Array+Shuffling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801282C1F4B3FB8008D812E /* Array+Shuffling.swift */; };
-		6801282F1F4B4C52008D812E /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801282E1F4B4C52008D812E /* EndViewController.swift */; };
-		680128311F4B4C5C008D812E /* EndScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680128301F4B4C5C008D812E /* EndScene.swift */; };
 		680128351F4B61E6008D812E /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680128341F4B61E5008D812E /* StartScreenViewController.swift */; };
 		680128371F4B65F8008D812E /* EndGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680128361F4B65F8008D812E /* EndGameViewController.swift */; };
 		6801283B1F4B84B2008D812E /* teenage-mutant-ninja-turtles-green-102810-640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 6801283A1F4B84B2008D812E /* teenage-mutant-ninja-turtles-green-102810-640x1136.png */; };
@@ -65,8 +63,6 @@
 		680128281F4B3A06008D812E /* bad_ninjagif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bad_ninjagif.gif; sourceTree = "<group>"; };
 		6801282A1F4B3F79008D812E /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = Content/Helper.swift; sourceTree = "<group>"; };
 		6801282C1F4B3FB8008D812E /* Array+Shuffling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Shuffling.swift"; sourceTree = "<group>"; };
-		6801282E1F4B4C52008D812E /* EndViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
-		680128301F4B4C5C008D812E /* EndScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndScene.swift; sourceTree = "<group>"; };
 		680128341F4B61E5008D812E /* StartScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
 		680128361F4B65F8008D812E /* EndGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndGameViewController.swift; sourceTree = "<group>"; };
 		6801283A1F4B84B2008D812E /* teenage-mutant-ninja-turtles-green-102810-640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teenage-mutant-ninja-turtles-green-102810-640x1136.png"; sourceTree = "<group>"; };
@@ -102,8 +98,6 @@
 		680127D81F4A4787008D812E /* Whack-A-Ninja */ = {
 			isa = PBXGroup;
 			children = (
-				680128301F4B4C5C008D812E /* EndScene.swift */,
-				6801282E1F4B4C52008D812E /* EndViewController.swift */,
 				6801282C1F4B3FB8008D812E /* Array+Shuffling.swift */,
 				6801282A1F4B3F79008D812E /* Helper.swift */,
 				680127D91F4A4787008D812E /* AppDelegate.swift */,
@@ -236,10 +230,8 @@
 				680127E21F4A4788008D812E /* GameViewController.swift in Sources */,
 				680128371F4B65F8008D812E /* EndGameViewController.swift in Sources */,
 				6801282D1F4B3FB8008D812E /* Array+Shuffling.swift in Sources */,
-				6801282F1F4B4C52008D812E /* EndViewController.swift in Sources */,
 				6801282B1F4B3F79008D812E /* Helper.swift in Sources */,
 				680127DA1F4A4787008D812E /* AppDelegate.swift in Sources */,
-				680128311F4B4C5C008D812E /* EndScene.swift in Sources */,
 				6801281D1F4AD240008D812E /* Tile.swift in Sources */,
 				680128351F4B61E6008D812E /* StartScreenViewController.swift in Sources */,
 			);
@@ -405,6 +397,7 @@
 				680127F01F4A4788008D812E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
