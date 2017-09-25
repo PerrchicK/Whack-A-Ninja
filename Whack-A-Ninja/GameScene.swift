@@ -79,7 +79,7 @@ class GameScene: SKScene {
     func createBadNinja(){
         time+=1
         
-        if(time >= 30){
+        if(time >= 10) {
             for tile in tiles {
                 tile.hide()
             }
