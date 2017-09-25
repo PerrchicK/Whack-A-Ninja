@@ -25,11 +25,12 @@ class EndGameViewController: UIViewController {
     }
     
     @IBAction func playAgain(_ sender: Any) {
-            performSegue(withIdentifier: "Play Again", sender: self)
+        //performSegue(withIdentifier: "Play Again", sender: self)
+        navigationController?.popViewController(animated: true)
     }
 
     @IBAction func mainMenu(_ sender: Any) {
-        performSegue(withIdentifier: "Main Menu", sender: self)
+        dismiss(animated: true, completion: nil)
     }
     /*
     // MARK: - Navigation

@@ -14,7 +14,8 @@ class EndViewController: UIViewController {
     @IBOutlet weak var ScoreLabel: UILabel!
     
     @IBAction func mainMenu(_ sender: UIButton) {
-        performSegue(withIdentifier: "Main Menu", sender: self)
+        //performSegue(withIdentifier: "Main Menu", sender: self)
+        dismiss(animated: true, completion: nil)
     }
     @IBAction func Restart(_ sender: UIButton) {
         performSegue(withIdentifier: "Restart", sender: self)

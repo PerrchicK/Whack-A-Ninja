@@ -34,7 +34,7 @@
                                 </state>
                                 <connections>
                                     <action selector="startGame:" destination="ynx-Pf-s78" eventType="touchUpInside" id="kvK-t4-ODR"/>
-                                    <segue destination="BV1-FR-VrT" kind="show" identifier="Start Game" id="62g-Hq-vLf"/>
+                                    <segue destination="Y9w-mt-rLb" kind="presentation" identifier="Start Game" id="5Ay-8s-Pt8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -44,6 +44,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fxu-3C-3re" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-881.25" y="109.85915492957747"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="jzL-gg-pnv">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="Y9w-mt-rLb" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Aqs-rL-xRg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BV1-FR-VrT" kind="relationship" relationship="rootViewController" id="ZhW-cY-urj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ihh-w0-oMu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1296" y="110"/>
         </scene>
         <!--Game View Controller-->
         <scene sceneID="tXr-a1-R10">
@@ -58,6 +74,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="R1l-td-cFq"/>
                     <connections>
                         <segue destination="fe9-on-qjw" kind="show" identifier="End Game" id="ahJ-Gr-oBK"/>
                     </connections>
@@ -97,7 +114,6 @@
                                 </state>
                                 <connections>
                                     <action selector="playAgain:" destination="fe9-on-qjw" eventType="touchUpInside" id="3Be-fJ-gnw"/>
-                                    <segue destination="BV1-FR-VrT" kind="show" identifier="Play Again" id="Nkh-9Z-ahT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Du-nM-2oC">
@@ -108,7 +124,6 @@
                                 </state>
                                 <connections>
                                     <action selector="mainMenu:" destination="fe9-on-qjw" eventType="touchUpInside" id="x06-Xk-Djh"/>
-                                    <segue destination="ynx-Pf-s78" kind="show" identifier="Main Menu" id="cMn-xp-bYw"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -126,7 +141,4 @@
     <resources>
         <image name="teenage-mutant-ninja-turtles-green-102810-640x1136.png" width="640" height="1136"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="Nkh-9Z-ahT"/>
-    </inferredMetricsTieBreakers>
 </document>

@@ -13,7 +13,7 @@ class GameScene: SKScene {
     var tiles = [Tile]()
     var gameTime : SKLabelNode!
     var gameScore : SKLabelNode!
-    var gameViewController: GameViewController?
+    weak var gameViewController: GameViewController?
     var popupTime = 0.85;
     private var score : Int = 0{
         didSet {
@@ -175,5 +175,10 @@ class GameScene: SKScene {
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
      
+    }
+    
+    deinit {
+        // For debugging purposes
+        print("\(self) is dead")
     }
 }
